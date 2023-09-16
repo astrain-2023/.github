@@ -2,7 +2,7 @@
 
 ## Inspiration
 
-we are mostly located in CH, some born here
+We are mostly located in CH, some born here
 we all drive
 we want to make driving a better experience
 we want to reduce emissions
