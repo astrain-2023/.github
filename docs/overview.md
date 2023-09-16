@@ -2,15 +2,13 @@
 
 ## Inspiration
 
-We are mostly located in CH, some born here
-we all drive
-we want to make driving a better experience
-we want to reduce emissions
+Time is our most valuable asset and spending time in traffic jams is not just bad for you, but also bad for the environment. As users of the Swiss road system and as admirers of the beautiful environment of Switzerland, we have a deep desire to make an impact to improve the current situation.
 
 ## What it does
 
-app that helps the user to make the right decission when driving to avoid congestion
-uses incentives to get the user to good behaviour
+Drivers on Swiss roads spend endless hours in traffic jams. Existing Map apps from Google or Apple lack the data and featuers do properly fight congestions in areas with high traffic peaks and limited options for alternative routes. Often, rerouting traffic even creates additional traffic jams in areas that were not built for high throghput.
+
+Our app uses sensor data from inductive loop detectors and road cameras to get a more comprehensive view of the road state and combine it with GPS data of individual drivers in real-time. With gamification and our own reward system we incentivise the drivers to follow our recommended action and therefore help to avoid congestion all-together.
 
 ## How we built it
 
