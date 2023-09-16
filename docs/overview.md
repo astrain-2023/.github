@@ -12,19 +12,18 @@ Our app uses sensor data from inductive loop detectors and road cameras to get a
 
 ## How we built it
 
-like pros
-long thought process, some figma planning map whatever stuff
-look at data, how we can combine etc
+Real-time data streaming is at the heart our our application. Prediction is useful to get an approximation of a future state but any system that is based on patterns of the past is fragile to the unpredictability of the future.
+
+As a team we spent the first hours brainstorming the problem statement and possible solutions. We clustered our ideas and set the focus, selecting the most impactful usecases. Using a lean gamification canvas we identified how to incentivise drivers to adopt better behaviour.
+
+After creating a joint plan for success, we have split the work into UI, backend and platform development, while continuing to research possible optimization in traffic management.
+
+Our presentation layer is a progressive web app running on the users phone, serving the end user and feeding back GPS data. It is build with Next.js and deployed to the Vercel edge.
+
+Our data platform uses Apache Kafka in combination with stream processing. It is based on Confluent Cloud which enables us to run at massive scale and achieve the troughtput and latency we would need to make recommendation that are actually based on real-time data. 
 
 ![Architecture Chart](../assets/architecture.png)
-
-High level:
-- Edge devices providing sensor data (existing, provided by ASTRA)
-- App on user devices
-- Vercel for edge deployments of the app
-- Confluent Cloud for real-time data streaming and processing
-- GCP for services and Confluent Cloud deployment (interchangeble with Azure or AWS at this point)
-
+(JamHero target architecture)
 
 ## Challenges we ran into
 
@@ -38,7 +37,6 @@ good decision
 real-time data streaming
 app that shows the gist 
 
-
 ## What we learned
 
 Our use cases mostly build on real-time data streaming, reacting to events that happen on the street, rather than using a prediction model. As part of our use case dicussion we have worked out cases that would build on prediction in combination with real-time data, but have rated those as less useful. To better understand our decision process have a look at our [inception](inception.md) docs.
@@ -49,4 +47,7 @@ To the moon
 ## Built With
 
 LOVE, ...
+
+
+Written by a real human.
 
