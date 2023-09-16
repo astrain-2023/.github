@@ -2,35 +2,21 @@
 
 ## Inspiration
 
-As a multi-national team, some born and some living in Switzerland
-
-TBD
+we are mostly located in CH, some born here
+we all drive
+we want to make driving a better experience
+we want to reduce emissions
 
 ## What it does
-TBD
+
+app that helps the user to make the right decission when driving to avoid congestion
+uses incentives to get the user to good behaviour
 
 ## How we built it
-TBD
 
-## Challenges we ran into
-TBD
-
-## Accomplishments that we're proud of
-yeah
-
-## What we learned
-a lot
-
-## What's next for AstAIn
-To the moon
-
-## Built With
-
-LOVE
-
-## Challenge
-
-## Architecture
+like pros
+long thought process, some figma planning map whatever stuff
+look at data, how we can combine etc
 
 ![Architecture Chart](../assets/architecture.png)
 
@@ -42,7 +28,27 @@ High level:
 - GCP for services and Confluent Cloud deployment (interchangeble with Azure or AWS at this point)
 
 
+## Challenges we ran into
 
-## Further considerations
+building a good prediciton model would need more inputs
+real-time data would still be needed to get the best results
+many discussions, evaluation etc
+
+## Accomplishments that we're proud of
+
+good decision
+real-time data streaming
+app that shows the gist 
+
+
+## What we learned
 
 Our use cases mostly build on real-time data streaming, reacting to events that happen on the street, rather than using a prediction model. As part of our use case dicussion we have worked out cases that would build on prediction in combination with real-time data, but have rated those as less useful. To better understand our decision process have a look at our [inception](inception.md) docs.
+
+## What's next for AstAIn
+To the moon
+
+## Built With
+
+LOVE, ...
+
